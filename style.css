@@ -1,0 +1,123 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #175d80;
+    position: relative;
+  
+}
+.text-top{
+    text-align: center;
+}
+
+.main__div{
+    width: 100%;
+    display: flex;
+    
+}
+#products__sect{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 70%;
+}
+.card{
+    margin: 10px 0;
+    background-color: #fff;
+  width: 300px;
+  position: relative;
+  padding: 10px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.card__item{
+    margin: 10px 6px;
+        background-color: #fff;
+        width: 200px;
+        position: relative;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+ .img__prod{
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.img__cart{
+    width: 200px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.info{
+    color: green;
+}
+.info__large{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.cart__btn{
+ 
+    padding: 6px 8px;
+    border: none;
+     
+}
+.form__sect{
+    width: 30%;
+}
+form > div{
+    display: flex;
+    flex-direction: column;
+}
+form button{
+    margin-top: 10px;
+    padding: 6px 8px;
+     border: none;
+     width: 100%;
+}
+
+form input{
+    padding: 6px 8px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+}
+button{
+    cursor: pointer;
+}
+#cartRemove{
+    background-color: red;
+}
+.icon-bar{
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+}
+.modal{
+    background-image:url(/images/a-person-in-running-shoes-on-the-background-of-an-electronic-signal-free-photo.jpg);
+    width: 500px;
+    height: 500px;
+    display: none;
+  margin: auto 250px;
+  border-radius: 10px;
+  overflow: auto;
+  transition: all 0.3s linear;
+  background-position:center;
+  background-size: cover;
+}
+.toggle{
+    display: block;
+}
+
+.icon{
+    cursor:pointer;
+    margin-left:95%;
+    background-color:blue;
+}
+
+.icon:hover{
+  background-color:rgb(4, 89, 28);
+  transition:0.5s;
+}
+#modal__items{
+ display: flex;
+ flex-wrap: wrap;
+}

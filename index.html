@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="text-top" class="text-top">cart (0)</h1>
+    <div class="icon-bar">
+      <svg id="bar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path
+          d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+        />
+      </svg>
+    </div>
+
+    <div class="modal">
+      <svg
+        id="modal__btn"
+        class="icon"
+        xmlns="http://www.w3.org/2000/svg"
+        height="24px"
+        viewBox="0 -960 960 960"
+        width="24px"
+        fill="#5f6368"
+      >
+        <path
+          d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+        />
+      </svg>
+
+      <div id="modal__items"></div>
+    </div>
+
+    <div class="main__div">
+      <!-- product card -->
+      <div id="products__sect" class="products__sect"></div>
+
+      <div class="form__sect">
+        <form id="form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+
+          <div>
+            <label for="description">description</label>
+            <input type="text" name="description" id="description" />
+          </div>
+
+          <div>
+            <label for="name">quantity</label>
+            <input type="text" name="quantity" id="quantity" />
+          </div>
+          <div>
+            <label for="status">status</label>
+            <input type="text" name="quantity" id="quantity" />
+          </div>
+
+          <div>
+            <label for="url">Image url</label>
+            <input type="text" name="url" id="url" />
+          </div>
+
+          <div>
+            <button type="submit">Create product</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
